@@ -1,0 +1,45 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  }
+.attribution {
+     font-size: 11px;
+     text-align: center;
+   }
+.attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  body {
+    background-color: hsl(0, 0%, 98%);
+    margin: 50px 250px;
+  }
+  p {
+   color:  hsl(229, 6%, 66%);
+
+ }
+
+.intro {
+  text-align: center;
+}
+
+.card-section {
+  border-radius: 5px;
+  border: 1px solid black;
+  border-top: 3px solid hsl(0, 78%, 62%);
+  display:  block;
+  width: 33.33%;
+  text-align: left;
+  padding: 50px;
+  color: hsl(234, 12%, 34%);
+  margin: 0px;
+  display: inline-block;
+
+}
+.row-1 {
+  display: inline-block;
+
+
+}
+.row-2 {
+ display: inline-block;
+}
