@@ -9,13 +9,23 @@
 .attribution a {
     color: hsl(228, 45%, 44%);
   }
-  body {
-    background-color: hsl(0, 0%, 98%);
-    margin: 50px 250px;
+  html {
+    max-width: 1440px;
   }
-  p {
-   color:  hsl(229, 6%, 66%);
+  body {
+    background-color: hsl(229, 6%, 66%);
+    margin: 50px 250px;
+    box-sizing: border-box;
 
+  }
+p {
+  color: hsl(234, 12%, 34%);
+}
+h1 {
+  color: hsl(234, 12%, 34%);
+}
+ h3 {
+   color: hsl(234, 12%, 34%);
  }
 
 .intro {
@@ -25,21 +35,40 @@
 .card-section {
   border-radius: 5px;
   border: 1px solid black;
-  border-top: 3px solid hsl(0, 78%, 62%);
+  /* border-top: 3px solid hsl(0, 78%, 62%); */
   display:  block;
-  width: 33.33%;
   text-align: left;
   padding: 50px;
-  color: hsl(234, 12%, 34%);
-  margin: 0px;
-  display: inline-block;
+   color: hsl(229, 6%, 66%);
+  background-color: hsl(0, 0%, 98%);
+  width: 33.33%;
+}
+/* .cards {
+  background-color: hsl(0, 0%, 98%);
+} */
+.cards:after{
+
+
+
+
 
 }
-.row-1 {
-  display: inline-block;
-
-
+#cyan {
+  border-top: 2px solid hsl(180, 62%, 55%);
 }
-.row-2 {
- display: inline-block;
+
+#red {
+
+  border-top: 2px solid hsl(0, 78%, 62%);
+}
+#blue {
+  border-top: 2px solid hsl(212, 86%, 64%);
+}
+#orange {
+  border-top: 2px solid hsl(34, 97%, 64%);
+}
+
+
+footer {
+clear: both;
 }
